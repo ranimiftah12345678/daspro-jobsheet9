@@ -6,18 +6,18 @@ public class Pertanyaan2 {
 
        int[] nilaiAkhir = new int[10];
 
-       for (int i=0;i< nilaiAkhir.length; i++) {
+       for (int i=0;i< nilaiAkhir.length;i++) {
         System.out.print("Masukkan nilai akhir ke-"+i+" : ");
         nilaiAkhir[i] = sc.nextInt();
        }
-       for (int i=0; i< nilaiAkhir.length; i++){
-        if (nilaiAkhir[i] > 70){
-            System.out.println("Mahasiswa ke-"+i+" Lulus!");   
+       for (int i=0; i<nilaiAkhir.length; i++){
+        if (nilaiAkhir[i] > 70) {
+        System.out.println("Mahasiswa ke-"+i+" Lulus! ");
         } else {
-            System.out.println("Mahasiswa ke-"+i+" Tidak Lulus!");
+            System.out.println("Mahasiswa ke-"+i+" Tidak Lulus! ");
         }
-        
-    }   
-}
+    }
+    }
 }
 
+ 

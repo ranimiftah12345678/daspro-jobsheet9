@@ -9,8 +9,8 @@ public class ArrayBilangan25 {
               
             System.out.println(bil[0] = 5);
             System.out.println(bil[1] = 13);
-            System.out.println(bil[2] = -7);
-            System.out.println(bil[3] = 17);
+            System.out.println(bil[2] = 5);
+            System.out.println(bil[3] = 5);
         }
     }
 
